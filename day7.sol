@@ -11,4 +11,8 @@ contract Day7 {
     function getOwner() public view returns(address) {
         return owner;
     }
+
+    function getTomorrowUnixTimestamp() public view returns(uint) {
+        return block.timestamp + 86400;
+    }
 }
