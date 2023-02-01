@@ -21,7 +21,7 @@ contract Day7 {
     function getTomorrowUnixTimestamp() public isOnwer view returns(uint) {
         return block.timestamp + 86400;
     }
-    
+
     function getAddress() public view returns(address) {
         return msg.sender;
     }

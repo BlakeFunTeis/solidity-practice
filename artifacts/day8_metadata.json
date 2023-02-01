@@ -1,0 +1,73 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "decrement",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "increment",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myUint8",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"day8.sol": "day8"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"day8.sol": {
+			"keccak256": "0xe7d500f362f41ca79780f7f30ebf20aa321cdd6d5c8fe00debd75f09d7a21335",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bdc6e1add92c40cc607369c471e83f48ce587f4606177364c82a38a137577478",
+				"dweb:/ipfs/Qmc9ce43GnQFeR9RYjgkXeaSsUPAxaLDTx8oUi4Hg1EG9j"
+			]
+		}
+	},
+	"version": 1
+}
