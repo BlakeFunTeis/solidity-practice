@@ -9,9 +9,9 @@ contract Exceptions {
 
     uint mintLimit = 24;
 
-    uint mintTotal = 0;
-
     uint mintPrice = 0.2 ether;
+
+    bool pause = false;
 
     constructor() {
         owner = msg.sender;        
@@ -24,7 +24,7 @@ contract Exceptions {
 
     modifier isCheckMint() {
         require(block.timestamp >= 1672502400, "Error1");
-        require(mintTotal <= mintLimit, "Error2");
+        require(whiteList[msg.sender] <= mintLimit, "Error2");
         _;
     }
 
@@ -41,5 +41,14 @@ contract Exceptions {
 
     function getEther() public isCheckOwner {
         payable(owner).transfer(address(this).balance);
+    }
+
+    function testAssert() public view {
+        assert(pause == false);
+    }
+
+    function setPause(bool _bool) public returns(bool) {
+        pause = _bool;
+        return pause;
     }
 }
