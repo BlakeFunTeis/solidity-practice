@@ -3,6 +3,8 @@ pragma solidity ^0.8.7;
 
 contract Exceptions {
 
+    event Log(address indexed _from, uint _total);
+
     address owner;
 
     mapping (address => uint) whiteList;
@@ -32,6 +34,7 @@ contract Exceptions {
         require(_total > 0, "mint total < 0");
         require(msg.value >= (mintPrice * _total), "Not enough ether");
         whiteList[msg.sender] += _total;
+        emit Log(msg.sender, _total);
         return true;
     }
 
@@ -47,8 +50,11 @@ contract Exceptions {
         assert(pause == false);
     }
 
-    function setPause(bool _bool) public returns(bool) {
+    function setPause(bool _bool) public isCheckOwner {
         pause = _bool;
+    }
+
+    function getPause() public view returns(bool) {
         return pause;
     }
 }
