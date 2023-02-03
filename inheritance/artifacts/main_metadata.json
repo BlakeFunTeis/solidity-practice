@@ -1,0 +1,155 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "main_polymorphism",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testB_Base",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "test_override",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "test_polymorphism",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_int",
+						"type": "uint256"
+					}
+				],
+				"name": "test_polymorphism",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "test_run_super",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_int",
+						"type": "uint256"
+					}
+				],
+				"name": "test_super",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "test_super",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"inheritance/main.sol": "main"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"hardhat/console.sol": {
+			"keccak256": "0x60b0215121bf25612a6739fb2f1ec35f31ee82e4a8216c032c8243d904ab3aa9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6e29880d33dd479bb046ba306993d26ccb779a4b1d94a046cb3567f22948bb4d",
+				"dweb:/ipfs/QmfTY1qzPt5C63Wc7y6JqfZr5899NRvXYdCpyLzR5FXQic"
+			]
+		},
+		"inheritance/A.sol": {
+			"keccak256": "0xd3f9efbc2b39200790bdb119f44dbc362f1d57a542bf6ee3d99d6ab9e2320ca6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b4c4e08609876234c328fea3de6e9ffb6943c02a8a2825428677bb04196ae2b5",
+				"dweb:/ipfs/QmfTLgiiJrb56w4Z7s8qBSCxwgfveunJm21aQDd1bAygiu"
+			]
+		},
+		"inheritance/B.sol": {
+			"keccak256": "0xd6c53b5a563b80a7ffb4ac638946ce120ddd9530455d9153d370d53279c1dfa6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://39e13b8fe32b4c5a7a478ce96dcf4e0f4d524cc617e4b7b2a4f7c89d1fa07ec3",
+				"dweb:/ipfs/QmWs1MAMgy46xSV6u9N8WXLGn6dvd3ydb7vrCZ9qPNvNke"
+			]
+		},
+		"inheritance/main.sol": {
+			"keccak256": "0x690f0c18ca56dfd614a00e70ebc94d781d31c41dfe6c3dfbd28f4e7dc36fc86d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d323cd1caa82a54ca474c7ee760037e2e74366fa928f18e43498816f752322a2",
+				"dweb:/ipfs/QmQJ5XojUJ6rqkVefkj4XxQUQpMUqqcawjiRLHZwoqNsxP"
+			]
+		}
+	},
+	"version": 1
+}
