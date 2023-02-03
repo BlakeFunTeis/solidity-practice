@@ -1,5 +1,6 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.7;
+pragma solidity ^0.8.17;
+import "hardhat/console.sol";
 
 contract Exceptions {
 
@@ -50,11 +51,16 @@ contract Exceptions {
         assert(pause == false);
     }
 
-    function setPause(bool _bool) public isCheckOwner {
+    function setPause(bool _bool) public {
         pause = _bool;
     }
 
     function getPause() public view returns(bool) {
         return pause;
+    }
+
+    receive() payable external {
+        console.log(1);
+        // payable(msg.sender).transfer(msg.value);
     }
 }
