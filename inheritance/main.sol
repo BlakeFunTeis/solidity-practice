@@ -3,7 +3,8 @@ pragma solidity ^0.8.17;
 import "hardhat/console.sol";
 import "inheritance/B.sol";
 import "inheritance/A.sol";
-contract main is B,A {
+import "inheritance/interface.sol";
+contract main is B,A,Interface {
     constructor() B() {
         console.log("main");
     }
@@ -27,5 +28,17 @@ contract main is B,A {
         super.test_super(2);
         A.test_super();
         B.test_super(99);
+    }
+
+    function test_interface_A() external view {
+        console.log("interface_A");
+    }
+
+    function test_interface_B() external view {
+        console.log("interface_B");
+    }
+
+    function test_interface_C() external view{
+        console.log("interface_C");
     }
 }
