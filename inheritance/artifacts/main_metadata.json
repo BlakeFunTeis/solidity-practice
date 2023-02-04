@@ -26,6 +26,27 @@
 			},
 			{
 				"inputs": [],
+				"name": "test_interface_A",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "test_interface_B",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "test_interface_C",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "test_override",
 				"outputs": [],
 				"stateMutability": "view",
@@ -142,12 +163,20 @@
 				"dweb:/ipfs/QmWs1MAMgy46xSV6u9N8WXLGn6dvd3ydb7vrCZ9qPNvNke"
 			]
 		},
-		"inheritance/main.sol": {
-			"keccak256": "0x690f0c18ca56dfd614a00e70ebc94d781d31c41dfe6c3dfbd28f4e7dc36fc86d",
+		"inheritance/interface.sol": {
+			"keccak256": "0x39b1df73d595affcdf5e7f893ee07454c7cab69a1281bb564bc1bc02a385b124",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d323cd1caa82a54ca474c7ee760037e2e74366fa928f18e43498816f752322a2",
-				"dweb:/ipfs/QmQJ5XojUJ6rqkVefkj4XxQUQpMUqqcawjiRLHZwoqNsxP"
+				"bzz-raw://e7cdd61d1a1c5d19b9b9b598cb495aa2d810c22adeee1435852de471f899c643",
+				"dweb:/ipfs/Qmb2iRJz5SiDrH1shczLnHWBCubz9HJiSmjHnvSU8yRMi2"
+			]
+		},
+		"inheritance/main.sol": {
+			"keccak256": "0x264fcc0a2878925b3844b4d82201e4d97e517293ee7d0a06b5041f8e98ad1213",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://003d12b3b44de5244d0a79d6991544ddeb0b8208bf6b38042d824a27f9c16d09",
+				"dweb:/ipfs/QmS1K2cQoTCYn9syADxu4YREi96FiJvw7Sr7wUC4GE96SD"
 			]
 		}
 	},

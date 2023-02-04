@@ -1,0 +1,67 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "test_interface_A",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "test_interface_B",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "test_interface_C",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"inheritance/interface.sol": "Interface"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"inheritance/interface.sol": {
+			"keccak256": "0x39b1df73d595affcdf5e7f893ee07454c7cab69a1281bb564bc1bc02a385b124",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e7cdd61d1a1c5d19b9b9b598cb495aa2d810c22adeee1435852de471f899c643",
+				"dweb:/ipfs/Qmb2iRJz5SiDrH1shczLnHWBCubz9HJiSmjHnvSU8yRMi2"
+			]
+		}
+	},
+	"version": 1
+}
