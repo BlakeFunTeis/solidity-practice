@@ -4,7 +4,8 @@ import "hardhat/console.sol";
 import "inheritance/B.sol";
 import "inheritance/A.sol";
 import "inheritance/interface.sol";
-contract main is B,A,Interface {
+import "inheritance/abstract.sol";
+contract main is B,A,Interface,Abstract {
     constructor() B() {
         console.log("main");
     }
@@ -40,5 +41,10 @@ contract main is B,A,Interface {
 
     function test_interface_C() external view{
         console.log("interface_C");
+    }
+
+    function test_abstract() public view override returns(uint) {
+        console.log("test_abstract");
+        return 0;
     }
 }
