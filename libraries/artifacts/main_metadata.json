@@ -1,0 +1,67 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"libraries/main.sol": "main"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"hardhat/console.sol": {
+			"keccak256": "0x60b0215121bf25612a6739fb2f1ec35f31ee82e4a8216c032c8243d904ab3aa9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6e29880d33dd479bb046ba306993d26ccb779a4b1d94a046cb3567f22948bb4d",
+				"dweb:/ipfs/QmfTY1qzPt5C63Wc7y6JqfZr5899NRvXYdCpyLzR5FXQic"
+			]
+		},
+		"libraries/lib.sol": {
+			"keccak256": "0x5a6c537ad00562aa6591b6f21a61599bce7f07f4c44081e9cf87364099767570",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://847ffd5ae6eb0452e39265c5968c005066a1b35f07a6ecbf22630ee72dff7502",
+				"dweb:/ipfs/QmZRAi1433ZhAag1eia6TbVuPVXUyXD6zM9Q4iH2tVVP9R"
+			]
+		},
+		"libraries/main.sol": {
+			"keccak256": "0xc2eb6cf93878c8af9b0418a6ce6ff937ca624a104313811689030ca14992701c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://09b6096122880c7ef5e19e3c615463585a20f8780a6ae4bb539771a63b9b633e",
+				"dweb:/ipfs/Qmakpm93WehZQ7btYrbKC6QuyNWJQVGFCV9ierejRbCKs1"
+			]
+		}
+	},
+	"version": 1
+}

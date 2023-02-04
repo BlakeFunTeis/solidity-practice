@@ -26,6 +26,19 @@
 			},
 			{
 				"inputs": [],
+				"name": "test_abstract",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "test_interface_A",
 				"outputs": [],
 				"stateMutability": "view",
@@ -163,6 +176,14 @@
 				"dweb:/ipfs/QmWs1MAMgy46xSV6u9N8WXLGn6dvd3ydb7vrCZ9qPNvNke"
 			]
 		},
+		"inheritance/abstract.sol": {
+			"keccak256": "0x62e8adff5c8dbbe6827ef910e3bcae690bd22bc5c42608c727bc3e08d56f0d8a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://863096e0e2178dd756d29c87f241d9944f638f47d1a051de6a32eb310b37e17d",
+				"dweb:/ipfs/QmaYR2jZkW4Uu3jMgdfneNVrDuo1KvfFqyKeWsreZtXcZg"
+			]
+		},
 		"inheritance/interface.sol": {
 			"keccak256": "0x39b1df73d595affcdf5e7f893ee07454c7cab69a1281bb564bc1bc02a385b124",
 			"license": "MIT",
@@ -172,11 +193,11 @@
 			]
 		},
 		"inheritance/main.sol": {
-			"keccak256": "0x264fcc0a2878925b3844b4d82201e4d97e517293ee7d0a06b5041f8e98ad1213",
+			"keccak256": "0x33899b078159c3a254898902af3b2836d9d40feff6c0b841fd6295cdc0cbf0e7",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://003d12b3b44de5244d0a79d6991544ddeb0b8208bf6b38042d824a27f9c16d09",
-				"dweb:/ipfs/QmS1K2cQoTCYn9syADxu4YREi96FiJvw7Sr7wUC4GE96SD"
+				"bzz-raw://8efec6d9ae0381077705829112a7e310330face06aa128a263e7954df538e069",
+				"dweb:/ipfs/QmTe6tZ2wgFZfweeNMAx1TGqRE57a7Np7u3JBJYaKXhVyS"
 			]
 		}
 	},
