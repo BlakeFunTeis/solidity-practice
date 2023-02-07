@@ -6,13 +6,7 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "initSupply",
-						"type": "uint256"
-					}
-				],
+				"inputs": [],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
 			},
@@ -195,6 +189,25 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_address",
+						"type": "address"
+					}
+				],
+				"name": "isContract_test",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "name",
 				"outputs": [
@@ -212,6 +225,32 @@
 				"name": "safeTransferFrom_test",
 				"outputs": [],
 				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "safeTransfer_test",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_address",
+						"type": "address"
+					}
+				],
+				"name": "sendValue_test",
+				"outputs": [],
+				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
@@ -292,6 +331,10 @@
 				],
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -356,11 +399,11 @@
 	},
 	"sources": {
 		"ERC20/main.sol": {
-			"keccak256": "0x2a8a0abed11a6cc0078473df2b27c68933c58131d14d85d0c0e55f970d8b09fb",
+			"keccak256": "0xe9e6159f1ed48f7b90d0fd65b497fffe4ecf34456fb6be4eb0bb0270154e7a14",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://804190e1384af173528b69f57688ada2d8ca9cbb73fd03a369fa5edaf7e852f9",
-				"dweb:/ipfs/QmRkF8rrMVR9harBQ6S79mGVDadDpszbF5SbEKQLArrxD3"
+				"bzz-raw://0cc0eb84e51c99e74d067a28430bd0026d614abccd2b0503ff9a34c77a1a1a64",
+				"dweb:/ipfs/QmNodeZNKc1dWM31cYY4w6Sb1rY1Y8Hv1YYNfzq4LH1WwZ"
 			]
 		},
 		"hardhat/console.sol": {
